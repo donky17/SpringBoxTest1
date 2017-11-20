@@ -1,0 +1,19 @@
+greeting: Hello
+
+endpoints:
+  health:
+    sensitive: false
+
+info:
+  build:
+    artifact: 'artifactorId123' ##@project.artifactId@
+    name: 'name123' ##@project.name@
+    description: 'yuna test' ##@project.description@
+    version: '1.0.0' ##@project.version@
+
+---
+
+spring:
+  profiles: spanish
+
+greeting: Hola
